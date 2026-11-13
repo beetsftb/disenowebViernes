@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f0e6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+header{
+    background-color: #2e523a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 80px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+main{
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+/*Página Plantas
+La tabla debe ocupar todo el ancho del contenido principal.
+Cada celda con un borde continuo de 1px color #cccccc y 10px de espacio interno.
+La fila de encabezados con fondo verde #2e5e3a y texto blanco.*/
+
+
+table{
+
+    width: 100%;
+
+}
+
+td, th{
+    border: 1px #cccccc solid;
+    padding: 10px;
+}
+
+th{
+    background-color: #2e5e3a;
+    color: white;
+}
+
+p strong{
+    color:#2e5e3a;
+}
+
+
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: 50%;
+    display: block;
+}
+
+button{
+    display: block;
+    background-color: #2e5e3a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+footer{
+    background-color:#2e5e3a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
